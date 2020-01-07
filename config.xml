@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="tw.edu.nfu.eZTravel" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<!-- versionCode is optional and Android only -->
+  <!-- APP名子 -->
+  <!-- 可以使用中文 -->
+  <name>Entertainment news</name>
+  <description>
+      An 娛樂資訊 build APP from 10863106@gm.nfu.edu.tw.
+  </description>
+  <author href="https://www.nfu.edu.tw/zh/" email="10863106@gm.nfu.edu.tw">
+      CI-FONG LIN
+  </author>
+  <content src="index.html" />
+  <allow-navigation href="http://example.com/*" />
+
+  <!-- Wildcards are allowed for the protocol, as a prefix
+     to the host, or as a suffix to the path -->
+  <allow-navigation href="*://*.example.com/*" />
+
+  <!-- A wildcard can be used to whitelist the entire network,
+     over HTTP and HTTPS.
+     *NOT RECOMMENDED* -->
+  <allow-navigation href="*" />
+
+  <!-- The above is equivalent to these three declarations -->
+  <allow-navigation href="http://*/*" />
+  <allow-navigation href="https://*/*" />
+  <allow-navigation href="data:*" />
+  <platform name="android">
+    <!-- APP的圖示 -->
+    <icon src="res/magic.png" />
+    <icon src="res/android/magic.png" density="ldpi" />
+    <icon src="res/android/magic.png" density="mdpi" />
+    <icon src="res/android/magic.png" density="hdpi" />
+    <icon src="res/android/magic.png" density="xhdpi" />
+  </platform>
+    <!-- Allow links to example.com -->
+    <plugin name="cordova-plugin-inappbrowser" spec="~1.7.1" />
+    <plugin name="cordova-plugin-network-information" spec="~1.3.3" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
+</widget>

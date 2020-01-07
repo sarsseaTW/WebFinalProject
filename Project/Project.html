@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>   
+	<title>Project</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255))">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>台灣附近海況</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="../index.html" rel="external">Back</a>
+        </div>
+<!-- <center><b><font size=+4>台灣附近海況</font></b></center> -->
+        <map name="map-a">
+            <area shape="circle" coords="580,78,9" href="Fugui_Cape_Buoy.php" alt="富貴角">
+            <area shape="circle" coords="674,126,7" href="Longdong Buoy.php" alt="龍洞">
+            <area shape="circle" coords="689,203,6" href="Guishandao_Buoy.php" alt="龜山">
+            <area shape="circle" coords="673,258,8" href="Su-ao_Buoy.php" alt="蘇澳">
+            <area shape="circle" coords="618,407,6" href="Hualien_Buoy.php" alt="七星">
+            <area shape="circle" coords="512,778,8" href="Taitung_Buoy.php" alt="台東">
+            <area shape="circle" coords="574,907,9" href="Lanyu_Buoy.php" alt="蘭嶼">
+            <area shape="circle" coords="382,969,8" href="Eluanbi_Buoy.php" alt="鵝鑾鼻">
+            <area shape="circle" coords="291,859,8" href="Xiao_Liuqiu_Buoy.php" alt="小琉球">
+            <area shape="circle" coords="224,659,7" href="Qigu_Buoy.php" alt="額沙洲">
+            <area shape="circle" coords="96,510,8" href="Penghu_Buoy.php" alt="姑婆嶼">
+            <area shape="circle" coords="67,249,6" href="Kinmen_Buoy.php" alt="科羅港">
+            <area shape="circle" coords="422,190,8" href="Hsinchu_Buoy.php" alt="海山漁港">
+        </map>
+        <img  src="../Project/T.png" usemap="#map-a" align="left"/>
+        <img align="left"  src="QRCode.php"/>
+    </div>
+
+</body>
+</html>
